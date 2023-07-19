@@ -66,4 +66,14 @@ width: 45%;
     object-fit: cover;
   }
 }
-
+@media (min-width: 680px) and (max-width: 1100px) {
+  .tile-image {
+    margin-right: 20px;
+  }
+  p {
+    font-size: 1rem;
+  } 
+  .card {
+    width: 50%;
+  }
+}
